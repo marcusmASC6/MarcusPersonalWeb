@@ -1,0 +1,45 @@
+#dropdown-home {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdown-content-home {
+  display: none;
+  position: absolute;
+  padding: 3px;
+  background-color: black;
+  
+  z-index: 1;
+}
+
+#dropdown-home:hover #dropdown-content-home {
+  display: block;
+}
+li{
+    list-style: none;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 2px;
+    background-color: Bisque ;
+}
+body{
+    background-color: blue;
+}
+#LogoName{
+    font-size: 36px;
+    margin: 0;
+}
+.Dropdown-element{
+    font-size: 24px;
+}
+
+#About-Dropdown-element {
+  display: none;
+  padding: 3px;
+  background-color: black;
+  margin-left: 20px;
+}
+
+#Dropdown-About:hover #About-Dropdown-element {
+  display: block;
+}
