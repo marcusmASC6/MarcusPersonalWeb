@@ -20,7 +20,7 @@ h2{
     display: inline;
 }
 body{
-    background-color: blue;
+    background-color: #BEEDED;
 }
 #LogoName{
     font-size: 36px;
@@ -34,7 +34,7 @@ Font-size:18px;
 Margin-left: 15px;
 }
 h2{
-    color: white;
+    color: black;
 }
 #Dropdown-About {
   position: relative;
@@ -61,4 +61,22 @@ Background-color: black;
 }
 Body{
 Margin: none;
+}
+.content{
+Width: 100%;
+position:relative;
+Align-content: top;
+}
+.wide{
+Width: 300px;
+Height: 300px;
+Display: inline
+}
+.tall{
+Height: 300px;
+Width: 200px;
+Display: inline
+}
+#quickSummary{
+display: inline
 }
