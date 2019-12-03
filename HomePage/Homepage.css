@@ -5,8 +5,10 @@ Background-color: black
 Width: 100%;
 }
 #dropdown-content-home {
-    Display: none;
-  margin-top: 0px;
+Transition: 2s;
+display: inline;
+  width: 100%;
+Margin-block-start: 0px;
 }
 
 #dropdown-home:hover #dropdown-content-home {
@@ -14,6 +16,31 @@ display: inline;
   width: 100%;
 Margin-block-start: 0px;
 }
+
+#dropdown-content-home{
+animation-name: menuHide;
+  animation-name: example;
+  animation-duration: 4s;
+Animation-direction: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+
+/* Standard syntax */
+@keyframes example {
+  from {opacity: 100%;}
+  to {opacity: 0%;}
+}
+
+
+
+
+
+
+
+
+
+
 h2{
     list-style: none;
     margin-bottom: 2px;
@@ -65,7 +92,7 @@ Margin: none;
 .content{
 Width: 100%;
 position:relative;
-Align-content: top;
+Align-content: top
 }
 .wide{
 Width: 300px;
