@@ -5,7 +5,7 @@
 Background-color: black
 Width: 100%;
 }
-#dropdown-content-home {
+.dropdown-content-home {
 Transition: 1s;
 display: inline;
   width: 100%;
@@ -15,7 +15,7 @@ opacity: 0%;
   animation-duration: 4s;
 }
 
-#dropdown-home:hover #dropdown-content-home {
+#dropdown-home:hover .dropdown-content-home {
 display: inline;
   width: 100%;
   opacity: 100%;
@@ -27,12 +27,11 @@ Margin-block-start: 0px;
 opacity: 0%;  
 }
 /* Safari 4.0 - 8.0 */
-
-/* Standard syntax */
 @keyframes example {
   from {opacity: 100%;}
   to {opacity: 0%;}
 }
+/* Standard syntax */
 body{
     background-color: white;
     Margin: 0px;
@@ -102,8 +101,7 @@ img{
     padding-top: 0px;
 }
 td{
-    width: 310px;
-    height:410px;
+    width: auto;
 }
 #sideimg{
     width: 400px;
@@ -111,4 +109,33 @@ td{
 }
 p{
     width: 340%;
+}
+td{
+    width: 310px;
+}
+#WebButton {
+  display: inline;
+}
+#WebInfo {
+Transition: 1s;
+display: inline;
+  width: 100%;
+Margin-block-start: 0px;
+opacity: 0%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+#WebButton:hover #WebInfo {
+display: inline;
+  opacity: 1;
+}
+.subjectName{
+    font-size: 38px;
+    width: auto;
+  padding-right: 50px;
+}
+#timeline{
+background-image: url("Timeline.jpg");
+Height: 598px;
 }
